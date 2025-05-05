@@ -141,12 +141,22 @@ title="LED MIRRORS - Heywood Promo Video 2015" frameborder="0" allowfullscreen><
     <section class="cta">
       <h2>💖 ¡Haz tu pedido ahora!</h2>
       <p>Promoción limitada – paga al recibir 📦</p>
-      <form>
-        <input type="text" name="name" placeholder="Nombre completo" required>
-        <input type="text" name="phone" placeholder="Teléfono" required>
-        <input type="text" name="address" placeholder="Dirección completa" required>
-        <input type="submit" value="¡Lo quiero ahora!">
-      </form>
+      <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mjkwwgqn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
   </div>
 </body>
